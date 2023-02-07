@@ -1,0 +1,32 @@
+List of things to know!
+
+1. Rendering "cards": This has appeared in pokemon searcher, toy tale, and hogwild so far as the first deliverable. In each of the three labs we created a child component and a grandchild component. In the child component we created a map function to iterate over the array of our objects in db.json. 
+
+Example: 
+  const renderHogs = hogs.map((hog) => { 
+       return <HogRender key = {hog.name} hog={hog} />
+    });
+
+Following creating the map function, we mention our component in child function after the return. 
+
+Example: 
+return (
+        <div className="ui three stackable cards"> 
+        {renderHogs} 
+        </div>
+    )
+
+
+
+2. 
+
+3. 
+
+4. 
+
+5. 
+
+6. 
+
+7. 
+
